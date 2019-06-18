@@ -1,35 +1,81 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 import "./Sidebar.css";
 import Toggle from "../Toggle";
 
 export default class Sidebar extends Component {
   render() {
+    const scrollOffset = -70;
     return (
       <Toggle>
         {({ on, toggle }) => (
           <React.Fragment>
             <div className="sidebar__hamburger" onClick={toggle}>
-              <span href="#" />
+              <span />
             </div>
             {on && (
               <div className="sidebar">
                 <ul>
-                  <li className="sidebar__item active">
-                    <a className="active" href="#">
+                  <li className="sidebar__item">
+                    <Link
+                      to="home"
+                      spy={true}
+                      smooth={true}
+                      offset={scrollOffset}
+                    >
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="sidebar__item">
-                    <a href="#about">About</a>
+                    <Link
+                      to="about"
+                      spy={true}
+                      smooth={true}
+                      offset={scrollOffset}
+                    >
+                      About
+                    </Link>
                   </li>
                   <li className="sidebar__item">
-                    <a href="#gallery">Gallery</a>
+                    <Link
+                      to="gallery"
+                      spy={true}
+                      smooth={true}
+                      offset={scrollOffset}
+                    >
+                      Gallery
+                    </Link>
                   </li>
                   <li className="sidebar__item">
-                    <a href="#events">Events</a>
+                    <Link
+                      to="events"
+                      spy={true}
+                      smooth={true}
+                      offset={scrollOffset}
+                    >
+                      Events
+                    </Link>
+                  </li>
+
+                  <li className="sidebar__item">
+                    <Link
+                      to="prices"
+                      spy={true}
+                      smooth={true}
+                      offset={scrollOffset}
+                    >
+                      Prices
+                    </Link>
                   </li>
                   <li className="sidebar__item">
-                    <a href="#contact">Contact</a>
+                    <Link
+                      to="contact"
+                      spy={true}
+                      smooth={true}
+                      offset={scrollOffset}
+                    >
+                      Contact
+                    </Link>
                   </li>
                 </ul>
               </div>

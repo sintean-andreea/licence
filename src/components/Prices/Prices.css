@@ -1,0 +1,16 @@
+.prices {
+
+}
+
+.prices__heading-2 {
+
+}
+
+.plans {
+    background-color: #eee;
+    border-radius: 3px;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

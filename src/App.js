@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
 import Events from "./components/Events/Events";
+import Prices from "./components/Prices/Prices";
 import Contact from "./components/Contact/Contact";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <About />
         <Gallery />
         <Events />
+        <Prices />
         <Contact />
       </main>
     </div>

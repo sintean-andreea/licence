@@ -80,12 +80,13 @@
     width: inherit;
     display: block;
     color: #333;
+    transition: all .2s;
 }
 
 .sidebar__item a:hover,
 .sidebar__item a:focus,
 .sidebar__item a:active,
-.sidebar__item.active a {
+.sidebar__item a.active {
     background-color: #333;
     color: #fff;
 }

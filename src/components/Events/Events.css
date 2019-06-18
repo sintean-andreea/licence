@@ -1,8 +1,8 @@
 .events {
     background: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3)),  url('/assets/calendar-bg.jpg') no-repeat top center;
     background-size: cover;
-    min-height: 700px;
-    padding: 50px 0;
+    min-height: 750px;
+    padding-top: 30px;
 }
 
 .events__heading {
@@ -11,6 +11,6 @@
 
 @media only screen and (max-width: 600px) {
     .events {
-        min-height: 1000px;
+        min-height: 900px;
     }
 }

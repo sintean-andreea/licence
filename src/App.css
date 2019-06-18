@@ -68,6 +68,9 @@ a, a:active, a:focus, a:hover {
 
 .heading-3 {
   color: #fefefe;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
 }
 
 .default-description {
@@ -79,6 +82,8 @@ a, a:active, a:focus, a:hover {
   max-width: 100%;
 }
 
+.display-block { display: block !important; }
+
 .center-text { text-align: center !important; }
 
 .m-0-auto { margin: 0 auto !important; }
@@ -87,12 +92,18 @@ a, a:active, a:focus, a:hover {
 
 .mt-3 { margin-top: 30px !important; }
 
+.mt-4 { margin-top: 40px !important; }
+
 .mt-5 { margin-top: 50px !important; }
 
 .mt-10 { margin-top: 100px !important; }
 
 .mt-15 { margin-top: 150px !important; }
 
+.mb-1 { margin-bottom: 10px !important; }
+
 .mb-2 { margin-bottom: 20px !important; }
+
+.mb-3 { margin-bottom: 30px !important; }
 
 .mb-4 { margin-bottom: 40px !important; }
