@@ -1,0 +1,123 @@
+.calendar {
+
+}
+
+.calendar__tabs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar__tab {
+    transition: all .3s;
+    padding: 8px 16px;
+    border-radius: 3px;
+    margin-top: 2px;
+}
+
+.calendar__tab:not(:last-of-type) {
+    margin-right: 2px;
+}
+
+.calendar__tab.active,
+.calendar__tab:hover {
+    cursor: pointer;
+    background-color: #f2eeb3;
+}
+
+.calendar__tab-title {
+    color: #f2eeb3;
+    font-size: 18px;
+}
+
+.calendar__tab.active .calendar__tab-title,
+.calendar__tab:hover .calendar__tab-title {
+    color: #333;
+}
+
+.calendar__row {
+    background-color: #fefefe;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.calendar__row:hover {
+    background-color: #fefeee;
+}
+
+.calendar__row:not(:last-of-type) {
+    margin-bottom: 3px;
+}
+
+.calendar__column {
+    padding: 30px;
+    width: 33.33333333%;
+    font-weight: 500;
+}
+
+.calendar__column--hours {
+    text-align: center;
+}
+
+.calendar__column--label {
+    text-align: left;
+    font-weight: 700;
+}
+
+.calendar__cta {
+    text-align: right;
+}
+
+.calendar__cta a {
+    border-radius: 3px;
+    padding: 10px 15px;
+    border: 1px solid #8c6954;
+    color: #8c6954;
+    transition: all .2s;
+    display: inline-block;
+}
+
+.calendar__cta a:focus,
+.calendar__cta a:hover,
+.calendar__cta a:active {
+    background-color: #8c6954;
+    color: #fefefe;
+}
+
+@media only screen and (max-width: 600px) {
+    .calendar__tabs {
+        justify-content: center;
+    }
+
+    .calendar__tab {
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+    
+    .calendar__tab:not(:last-of-type) {
+        margin-right: 2px;
+    }
+
+    .calendar__row {
+        flex-wrap: wrap;
+    }
+
+    .calendar__column {
+        width: 50%;
+        padding: 20px 15px;
+    }
+
+    .calendar__column:not(.calendar__column--label) {
+        padding-top: 0;
+    }
+
+    .calendar__column--label {
+        width: 100%;
+        text-align: center;
+    }
+
+    .calendar__cta {
+        text-align: center;
+    }
+    
+}

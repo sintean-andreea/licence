@@ -1,0 +1,31 @@
+/* .about__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about__content__item {
+    font-size: 20px;
+}
+
+.about__content__item img {
+    max-height: 300px;
+}
+
+@media only screen and (min-width: 601px) {
+    .about__content__item.default-description {
+        flex: 1;
+        padding-left: 15px;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about__content {
+        flex-direction: column;
+    }
+
+    .about__content__item {
+        width: 100%;
+    }
+} */

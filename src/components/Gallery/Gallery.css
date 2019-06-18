@@ -1,0 +1,87 @@
+.gallery__carousel {
+    position: relative;
+    padding: 0 45px;    
+    margin: 0 -15px;
+}
+
+.gallery__carousel .carousel__slider {
+
+}
+
+.gallery__carousel .carousel__inner-slide {
+    padding: 0 15px;
+}
+
+.gallery__carousel__img-container {
+    height: 30vw;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.gallery__carousel__img-container:hover {
+    cursor: pointer;
+}
+
+.gallery__carousel__title {
+    margin: 15px 0 5px;
+}
+
+.gallery__carousel__description {
+
+}
+
+.gallery__carousel button[type="button"] {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    border: none;
+    background: none;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    font-family: monospace, 'Courier New', Courier;
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+.gallery__carousel button[type="button"] {
+
+}
+
+.gallery__carousel button[type="button"]:hover:not(:disabled),
+.gallery__carousel button[type="button"]:active:not(:disabled) {
+    color: #fff;
+    background-color: #260126;
+}
+
+.gallery__carousel button[type="button"]:focus {
+    outline: none;
+}
+
+.gallery__carousel button[type="button"]:disabled {
+    cursor: default;
+}
+
+.gallery__carousel .carousel__back-button {
+    left: 0;
+}
+
+.gallery__carousel .carousel__next-button {
+    right: 0;
+}
+
+@media (max-width: 600px) {
+    .gallery__carousel {
+        margin: 0 -10px;
+    }
+    .gallery__carousel__img-container {
+        height: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .gallery__carousel__img-container {
+        height: 200px;
+    }
+}
