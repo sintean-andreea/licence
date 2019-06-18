@@ -1,5 +1,5 @@
 {
-  "name": "spa",
+  "name": "Personal scheduling web application for professional use",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

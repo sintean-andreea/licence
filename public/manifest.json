@@ -1,6 +1,6 @@
 {
-  "short_name": "Nume Licenta SCURT",
-  "name": "Nume Licenta LUNG",
+  "short_name": "Licence",
+  "name": "Personal scheduling web application for professional use",
   "icons": [
     {
       "src": "favicon.ico",
