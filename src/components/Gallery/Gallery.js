@@ -17,7 +17,7 @@ export default class Gallery extends Component {
 
   updateVisibleSlides = () => {
     let visibleSlides;
-    visibleSlides = window.innerWidth < 601 ? 1 : 3;
+    visibleSlides = window.innerWidth < 801 ? 1 : 3;
     this.setState({ visibleSlides });
   };
 
@@ -34,7 +34,7 @@ export default class Gallery extends Component {
           <CarouselProvider
             className="gallery__carousel mt-5"
             naturalSlideWidth={100}
-            naturalSlideHeight={150}
+            naturalSlideHeight={200}
             totalSlides={9}
             visibleSlides={this.state.visibleSlides}
           >

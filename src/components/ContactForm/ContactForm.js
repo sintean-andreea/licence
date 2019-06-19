@@ -37,7 +37,11 @@ export default class ContactForm extends Component {
     return showSubmitMessage ? (
       submitMessage
     ) : (
-      <form onSubmit={this.handleSubmit} className={this.props.formClassName}>
+      <form
+        onSubmit={this.handleSubmit}
+        className={this.props.formClassName}
+        id="form"
+      >
         <div className="form-default__separator">
           <div className="form-default__control">
             <label htmlFor="first">First Name</label>

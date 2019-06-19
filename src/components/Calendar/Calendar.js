@@ -51,10 +51,10 @@ export default class Calendar extends Component {
             <div className="calendar__column calendar__cta right-text">
               <Link
                 className="btn-default btn-default--outline"
-                to="contact"
+                to="form"
                 spy={true}
                 smooth={true}
-                offset={-30}
+                offset={-70}
               >
                 {this.props.buttonText}
               </Link>
