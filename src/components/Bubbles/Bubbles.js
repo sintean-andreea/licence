@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Bubbles.css";
-import Bubble from "./Bubble/Bubble";
+import Bubble from "../Bubble/Bubble";
 
 export default class Bubbles extends Component {
   render() {

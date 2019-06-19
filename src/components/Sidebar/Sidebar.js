@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
 import "./Sidebar.css";
-import Toggle from "../Toggle";
+import Toggle from "../Toggle/Toggle";
 
 export default class Sidebar extends Component {
   render() {

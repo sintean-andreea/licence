@@ -8,7 +8,7 @@ import {
   ButtonNext
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import SliderItem from "./SliderItem/SliderItem";
+import SliderItem from "../SliderItem/SliderItem";
 
 export default class Gallery extends Component {
   state = {
