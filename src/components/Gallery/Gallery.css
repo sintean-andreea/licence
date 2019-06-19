@@ -5,7 +5,7 @@
 }
 
 .gallery__carousel .carousel__slider {
-
+    max-height: 500px;
 }
 
 .gallery__carousel .carousel__inner-slide {

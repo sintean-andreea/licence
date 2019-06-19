@@ -1,14 +1,18 @@
 import React, { Component } from "react";
 import "./Calendar.css";
-import CalendarData from "./CalendarData";
+import { Link } from "react-scroll";
+import CalendarData from "../../data/CalendarData";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from "@fortawesome/free-regular-svg-icons";
 
 export default class Calendar extends Component {
   state = {
-    activeTab: 0
+    activeTab: 0,
+    ...CalendarData[0]
   };
 
   setActiveTab = activeTab => {
-    this.setState({ activeTab });
+    this.setState({ activeTab, ...CalendarData[activeTab] });
   };
 
   getCalendarTabClassName = index => {
@@ -22,12 +26,10 @@ export default class Calendar extends Component {
   };
 
   render() {
-    let data = CalendarData;
-
     return (
       <div className="calendar" title={this.props.title}>
         <div className="calendar__tabs mt-3 mb-2">
-          {data.map((item, index) => (
+          {CalendarData.map((item, index) => (
             <div
               key={index}
               className={this.getCalendarTabClassName(index)}
@@ -37,25 +39,28 @@ export default class Calendar extends Component {
             </div>
           ))}
         </div>
-        {data.map((item, index) =>
-          item.rows.map((row, rowIndex) => {
-            if (index === this.state.activeTab) {
-              return (
-                <div className="calendar__row" key={rowIndex}>
-                  <div className="calendar__column calendar__column--label">
-                    {row.name}
-                  </div>
-                  <div className="calendar__column center-text">
-                    {row.hours}
-                  </div>
-                  <div className="calendar__column calendar__cta right-text">
-                    <a href="#contact">{this.props.buttonText}</a>
-                  </div>
-                </div>
-              );
-            }
-          })
-        )}
+        {this.state.rows.map((row, index) => (
+          <div key={index} className="calendar__row">
+            <div className="calendar__column calendar__column--label">
+              {row.name}
+            </div>
+            <div className="calendar__column calendar__column--hours center-text">
+              <FontAwesomeIcon icon={faClock} />
+              {row.hours}
+            </div>
+            <div className="calendar__column calendar__cta right-text">
+              <Link
+                className="btn-default btn-default--outline"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-30}
+              >
+                {this.props.buttonText}
+              </Link>
+            </div>
+          </div>
+        ))}
       </div>
     );
   }

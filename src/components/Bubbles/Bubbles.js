@@ -9,77 +9,47 @@ export default class Bubbles extends Component {
         <Bubble left={0} top={0}>
           Healthy lifestyle!
         </Bubble>
-        <Bubble left={80} top={33}>
-          Happiness = Zumba
-        </Bubble>
         <Bubble left={110} top={66}>
-          Let Zumba Fitness be your stress reliever
-        </Bubble>
-        <Bubble left={240} top={100}>
-          No pain no gain!
-        </Bubble>
-        <Bubble left={320} top={0}>
-          Be healthy!
+          Let Zumba Fitness be your stress reliever!
         </Bubble>
         <Bubble left={400} top={33}>
-          Don't be afraid of being a beginner
-        </Bubble>
-        <Bubble left={480} top={66}>
           You see sweat, I see a sexy glow!
         </Bubble>
-        <Bubble left={560} top={100}>
+        <Bubble left={500} top={100}>
           Girl! You got this!
         </Bubble>
-        <Bubble left={640} top={0}>
+        <Bubble left={600} top={0}>
           Therapy is in the gym
         </Bubble>
-        <Bubble left={830} top={66}>
-          YOU CAN DO IT
+        <Bubble left={700} top={66}>
+          Jump! Jump! Jump!
         </Bubble>
-        <Bubble left={880} top={100}>
-          Go To The Gym
-        </Bubble>
-        <Bubble left={960} top={0}>
-          It dosen't get easier. You just get stronger.
+        <Bubble left={1000} top={100}>
+          Go To The Gym!
         </Bubble>
         <Bubble left={900} top={33}>
           Come to my team! Together we are the winner!
         </Bubble>
-        <Bubble left={1120} top={66}>
-          You Only Live Once!
+        <Bubble left={1500} top={100}>
+          Happiness = Zumba!
         </Bubble>
-        <Bubble left={1200} top={100}>
-          Train Hard
+        <Bubble left={1200} top={0}>
+          Zumba Time!
         </Bubble>
-        <Bubble left={1550} top={0}>
-          Zumba Time
-        </Bubble>
-        <Bubble left={1500} top={33}>
-          Go Run
-        </Bubble>
-        <Bubble left={1440} top={66}>
+        <Bubble left={1350} top={56}>
           Get fit!
         </Bubble>
-        <Bubble left={1520} top={100}>
-          Yes you can!
+        <Bubble left={2000} top={100}>
+          Stop saying tomorrow!
         </Bubble>
-        <Bubble left={1900} top={0}>
-          Keep Going
+        <Bubble left={1800} top={0}>
+          Keep Going!
         </Bubble>
-        <Bubble left={1680} top={33}>
-          Happiness!
-        </Bubble>
-        <Bubble left={1840} top={100}>
-          A little progress each day adds up to big results
-        </Bubble>
-        <Bubble left={1650} top={66}>
+        <Bubble left={1650} top={56}>
           Time to Change!
         </Bubble>
-        <Bubble left={1920} top={33}>
-          Train like a Beast look like a Beauty
-        </Bubble>
-        <Bubble left={1960} top={66}>
-          It's fun, it's fitness, it's Zumba!
+        <Bubble left={1950} top={33}>
+          Train like a Beast look like a Beauty!
         </Bubble>
       </div>
     );

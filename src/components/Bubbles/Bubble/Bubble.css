@@ -1,7 +1,7 @@
 .bubbles__bubble {
     position: absolute;
     display: block;
-    background: linear-gradient(to left, #59323c00, #59323c);
+    background: linear-gradient(to left, #59323c00, #59323c 80%);
     color: #fff;
     padding: 10px 75px 10px 20px;
     font-size: 16px;

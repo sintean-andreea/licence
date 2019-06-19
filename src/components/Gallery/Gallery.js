@@ -34,81 +34,81 @@ export default class Gallery extends Component {
           <CarouselProvider
             className="gallery__carousel mt-5"
             naturalSlideWidth={100}
-            naturalSlideHeight={175}
+            naturalSlideHeight={150}
             totalSlides={9}
             visibleSlides={this.state.visibleSlides}
           >
             <Slider>
               <Slide>
                 <SliderItem
-                  title="My title"
+                  title="Jump"
                   alt="Jump"
                   src="/assets/gallery/jump.png"
-                  description="lorem ipsum pune si tu o descriere aici pentru fiecare poza"
+                  description="But natural selection, as we shall hereafter see, is a power incessantly ready for action, and is immeasurably superior to man's feeble efforts, as the works of Nature are to those of Art."
                 />
               </Slide>
               <Slide>
                 <SliderItem
-                  title="Zumbaaa!!"
+                  title="Zumba!"
                   alt="Zumba"
                   src="/assets/gallery/zumba.png"
-                  description="zxc"
+                  description="Zumba is an exercise fitness program created by Colombian dancer and choreographer Alberto Beto Pérez during the 1990s"
                 />
               </Slide>
               <Slide>
                 <SliderItem
-                  title="My title"
+                  title="Zumba"
                   alt="Zumba"
                   src="/assets/gallery/zumba1.png"
-                  description="lorem ipsum pune si tu o descriere aici pentru fiecare poza"
+                  description="Zumba is an exercise fitness program created by Colombian dancer and choreographer Alberto Beto Pérez during the 1990s"
                 />
               </Slide>
               <Slide>
                 <SliderItem
-                  title="My title"
-                  alt="Zumba"
-                  src="/assets/gallery/zumba2.png"
-                  description="lorem ipsum pune si tu o descriere aici pentru fiecare poza"
-                />
-              </Slide>
-              <Slide>
-                <SliderItem
-                  title="My title"
+                  title="Zumba"
                   alt="Zumba"
                   src="/assets/gallery/zumba3.png"
-                  description="lorem ipsum pune si tu o descriere aici pentru fiecare poza"
+                  description="Zumba is an exercise fitness program created by Colombian dancer and choreographer Alberto Beto Pérez during the 1990s"
                 />
               </Slide>
               <Slide>
                 <SliderItem
-                  title="My title"
+                  title="Jump"
+                  alt="Jump"
+                  src="/assets/gallery/jump.png"
+                  description="But natural selection, as we shall hereafter see, is a power incessantly ready for action, and is immeasurably superior to man's feeble efforts, as the works of Nature are to those of Art."
+                />
+              </Slide>
+              <Slide>
+                <SliderItem
+                  title="Zumba"
                   alt="Zumba"
-                  src="/assets/gallery/zumba4.png"
-                  description="lorem ipsum pune si tu o descriere aici pentru fiecare poza"
+                  src="/assets/gallery/zumba2.png"
+                  description="Zumba is an exercise fitness program created by Colombian dancer and choreographer Alberto Beto Pérez during the 1990s"
                 />
               </Slide>
               <Slide>
                 <SliderItem
-                  title="My title"
+                  title="Zumba"
                   alt="Zumba"
                   src="/assets/gallery/zumba5.png"
-                  description="lorem ipsum pune si tu o descriere aici pentru fiecare poza"
+                  description="Zumba is an exercise fitness program created by Colombian dancer and choreographer Alberto Beto Pérez during the 1990s"
                 />
               </Slide>
               <Slide>
                 <SliderItem
-                  title="My title"
-                  alt="Zumba"
-                  src="/assets/gallery/zumba6.png"
-                  description="lorem ipsum pune si tu o descriere aici pentru fiecare poza"
-                />
-              </Slide>
-              <Slide>
-                <SliderItem
-                  title="My title"
+                  title="Zumba"
                   alt="Zumba"
                   src="/assets/gallery/zumba7.png"
-                  description="lorem ipsum pune si tu o descriere aici pentru fiecare poza"
+                  description="Zumba is an exercise fitness program created by Colombian dancer and choreographer Alberto Beto Pérez during the 1990s"
+                />
+              </Slide>
+              <Slide>
+                <SliderItem
+                  title="Jump"
+                  alt="Jump"
+                  src="/assets/gallery/jump.png"
+                  description="But natural selection, as we shall hereafter see, is a power incessantly ready for action, and is immeasurably superior to man's feeble efforts, as the works of Nature are to those of Art."
                 />
               </Slide>
             </Slider>

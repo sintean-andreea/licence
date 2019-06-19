@@ -7,6 +7,7 @@ import Gallery from "./components/Gallery/Gallery";
 import Events from "./components/Events/Events";
 import Prices from "./components/Prices/Prices";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Events />
         <Prices />
         <Contact />
+        <Footer />
       </main>
     </div>
   );

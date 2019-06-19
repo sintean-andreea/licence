@@ -1,19 +1,62 @@
 .plans__box {
     background-color: #fefefe;
-    border: 1px solid #333;
     border-radius: 3px;
-    width: 33%;
-    padding: 60px 15px;
+    width: 240px;
+    padding: 40px 15px 30px;
+    box-shadow: 0 3px 15px 1px rgba(0, 0, 0, .2);
+}
+
+.plan__brand {
+    height: 100px;
+    transform: rotateZ(-15deg);
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+.plans__box * {
+    color: #fefefe;
+}
+
+.plans__box:nth-child(odd) {
+    background-image: linear-gradient(to right bottom, #f15d52, #790d77);
+}
+
+.plans__box:nth-child(even) {
+
+    background-image: linear-gradient(to right bottom, #f15d52, #790d77);
 }
 
 .plans__title {
     font-size: 24px;
-    text-transform: uppercase;
     text-align: center;
+    position: relative;
+}
+
+.plans__title::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, #fefefe00, #fefefe, #fefefe00)
 }
 
 .plans__separator {
     display: flex;
+    position: relative;
+    padding: 15px 0;
+}
+
+.plans__separator::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #fefefe00, #fefefe, #fefefe00) ;
 }
 
 .plans__separator__item {
@@ -24,7 +67,7 @@
 }
 
 .plans__separator__item--left {
-    border-right: 1px solid #333;
+    
 }
 
 .plans__separator__item--right {
@@ -32,7 +75,7 @@
 }
 
 .plans__separator__item > div:not(:last-of-type) {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .plans__day {
@@ -44,10 +87,20 @@
 }
 
 .plans__price {
-    font-size: 24px;
-    border: 1px solid #59323c;
     display: inline-block;
     padding: 3px 15px;
+}
+
+.plans__currency {
+    font-size: 16px;
+    vertical-align: super;
+    margin-right: 4px;
+    display: inline-block;
+    transform: translateY(-2px);
+}
+
+.plans__price-value {
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -71,10 +124,25 @@
 
 .plans__quote {
     font-size: 18px;
+    font-style: italic;
+}
+
+.plans__quote::before {
+    content: '"';
+}
+
+.plans__quote::after {
+    content: '"';
 }
 
 @media only screen and (min-width: 601px) {
     .plans__box:not(:last-of-type) {
         margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .plans__box {
+        width: 100%;
     }
 }

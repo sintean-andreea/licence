@@ -51,12 +51,16 @@
 
 .calendar__column {
     padding: 30px;
-    width: 33.33333333%;
+    width: 30%;
     font-weight: 500;
 }
 
 .calendar__column--hours {
-    text-align: center;
+    width: 40%;
+}
+
+.calendar__column--hours > svg {
+    margin-right: 8px;
 }
 
 .calendar__column--label {
@@ -66,22 +70,6 @@
 
 .calendar__cta {
     text-align: right;
-}
-
-.calendar__cta a {
-    border-radius: 3px;
-    padding: 10px 15px;
-    border: 1px solid #8c6954;
-    color: #8c6954;
-    transition: all .2s;
-    display: inline-block;
-}
-
-.calendar__cta a:focus,
-.calendar__cta a:hover,
-.calendar__cta a:active {
-    background-color: #8c6954;
-    color: #fefefe;
 }
 
 @media only screen and (max-width: 600px) {
@@ -109,6 +97,7 @@
 
     .calendar__column:not(.calendar__column--label) {
         padding-top: 0;
+        font-size: 14px;
     }
 
     .calendar__column--label {

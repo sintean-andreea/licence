@@ -1,0 +1,73 @@
+.form-default {
+
+}
+
+.form-default__separator {
+    display: flex;
+    justify-content: space-between
+}
+
+.form-default__separator > .form-default__control {
+    width: calc(50% - 10px);
+}
+
+.form-default__control {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-default__control:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.form-default__control > label {
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.form-default__control > input {
+
+}
+
+.form-default__control > textarea {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.form-default__control > input, 
+.form-default__control > textarea {
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: all .2s;
+    border: 1px solid transparent;
+}
+
+
+.form-default__control > input:not(.form-default__submit-btn):hover, 
+.form-default__control > input:not(.form-default__submit-btn):focus, 
+.form-default__control > input:not(.form-default__submit-btn):active, 
+.form-default__control > textarea:hover,
+.form-default__control > textarea:focus,
+.form-default__control > textarea:active {
+    background-color: #790d771a;
+    outline: none;
+    border: 1px solid #790d77;
+}
+
+.form-default__control > input:not(.form-default__submit-btn),
+.form-default__control > textarea {
+    border: 1px solid #59323c;
+}
+
+.form-default__submit-btn {
+
+}
+
+.form-default__submit-msg {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}

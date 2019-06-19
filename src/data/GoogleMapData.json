@@ -1,0 +1,20 @@
+ [
+     {
+      "shortName": "Turnverein",
+      "name": "Turnverein Spaichingen 1863 e.V., Hauptstraße, Spaichingen, Germania",
+      "position": {
+        "lat": 48.07576986079453,
+        "lng": 8.738136738538742
+      },
+      "zoom": 16
+ },
+    {
+      "shortName": "Volkshochschule",
+      "name": "vhs-Geschäftsstelle Volkshochschule Spaichingen - Volkshochschule Tuttlingen",
+      "position": {
+        "lat": 48.0750999,
+        "lng": 8.735815
+      },
+      "zoom": 16
+    }
+ ]
