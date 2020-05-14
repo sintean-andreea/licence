@@ -3,10 +3,10 @@ import "./SliderItem.css";
 
 export default class SliderItem extends Component {
   state = {
-    src: "/assets/home-bg.jpg"
+    src: process.env.PUBLIC_URL + "/assets/home-bg.jpg",
   };
 
-  openLightbox = src => {
+  openLightbox = (src) => {
     this.setState({ src });
   };
 

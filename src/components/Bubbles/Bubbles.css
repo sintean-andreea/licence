@@ -13,5 +13,6 @@
     left: 0;
     width: 100%;
     height: 300px;
-    background: linear-gradient(to bottom, #fff, #ffffff00, #fff), url('/assets/bubbles-bg.jpg') center center;
+    /* @TODO: Send this image from javascript */
+    background: linear-gradient(to bottom, #fff, #ffffff00, #fff), url('/licence/assets/bubbles-bg.jpg') center center;
 }

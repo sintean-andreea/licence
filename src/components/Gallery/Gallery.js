@@ -5,14 +5,14 @@ import {
   Slider,
   Slide,
   ButtonBack,
-  ButtonNext
+  ButtonNext,
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import SliderItem from "../SliderItem/SliderItem";
 
 export default class Gallery extends Component {
   state = {
-    visibleSlides: 3
+    visibleSlides: 3,
   };
 
   updateVisibleSlides = () => {
@@ -43,7 +43,7 @@ export default class Gallery extends Component {
                 <SliderItem
                   title="Jump"
                   alt="Jump"
-                  src="/assets/gallery/jump.png"
+                  src={process.env.PUBLIC_URL + "/assets/gallery/jump.png"}
                   description="But natural selection, as we shall hereafter see, is a power incessantly ready for action, and is immeasurably superior to man's feeble efforts, as the works of Nature are to those of Art."
                 />
               </Slide>
@@ -51,7 +51,7 @@ export default class Gallery extends Component {
                 <SliderItem
                   title="Zumba!"
                   alt="Zumba"
-                  src="/assets/gallery/zumba.png"
+                  src={process.env.PUBLIC_URL + "/assets/gallery/zumba.png"}
                   description="Zumba is an exercise fitness program created by Colombian dancer and choreographer Alberto Beto Pérez during the 1990s"
                 />
               </Slide>
@@ -59,7 +59,7 @@ export default class Gallery extends Component {
                 <SliderItem
                   title="Zumba"
                   alt="Zumba"
-                  src="/assets/gallery/zumba1.png"
+                  src={process.env.PUBLIC_URL + "/assets/gallery/zumba1.png"}
                   description="Zumba is an exercise fitness program created by Colombian dancer and choreographer Alberto Beto Pérez during the 1990s"
                 />
               </Slide>
@@ -67,7 +67,7 @@ export default class Gallery extends Component {
                 <SliderItem
                   title="Zumba"
                   alt="Zumba"
-                  src="/assets/gallery/zumba3.png"
+                  src={process.env.PUBLIC_URL + "/assets/gallery/zumba3.png"}
                   description="Zumba is an exercise fitness program created by Colombian dancer and choreographer Alberto Beto Pérez during the 1990s"
                 />
               </Slide>
@@ -75,7 +75,7 @@ export default class Gallery extends Component {
                 <SliderItem
                   title="Jump"
                   alt="Jump"
-                  src="/assets/gallery/jump.png"
+                  src={process.env.PUBLIC_URL + "/assets/gallery/jump.png"}
                   description="But natural selection, as we shall hereafter see, is a power incessantly ready for action, and is immeasurably superior to man's feeble efforts, as the works of Nature are to those of Art."
                 />
               </Slide>
@@ -83,7 +83,7 @@ export default class Gallery extends Component {
                 <SliderItem
                   title="Zumba"
                   alt="Zumba"
-                  src="/assets/gallery/zumba2.png"
+                  src={process.env.PUBLIC_URL + "/assets/gallery/zumba2.png"}
                   description="Zumba is an exercise fitness program created by Colombian dancer and choreographer Alberto Beto Pérez during the 1990s"
                 />
               </Slide>
@@ -91,7 +91,7 @@ export default class Gallery extends Component {
                 <SliderItem
                   title="Zumba"
                   alt="Zumba"
-                  src="/assets/gallery/zumba5.png"
+                  src={process.env.PUBLIC_URL + "/assets/gallery/zumba5.png"}
                   description="Zumba is an exercise fitness program created by Colombian dancer and choreographer Alberto Beto Pérez during the 1990s"
                 />
               </Slide>
@@ -99,7 +99,7 @@ export default class Gallery extends Component {
                 <SliderItem
                   title="Zumba"
                   alt="Zumba"
-                  src="/assets/gallery/zumba7.png"
+                  src={process.env.PUBLIC_URL + "/assets/gallery/zumba7.png"}
                   description="Zumba is an exercise fitness program created by Colombian dancer and choreographer Alberto Beto Pérez during the 1990s"
                 />
               </Slide>
@@ -107,7 +107,7 @@ export default class Gallery extends Component {
                 <SliderItem
                   title="Jump"
                   alt="Jump"
-                  src="/assets/gallery/jump.png"
+                  src={process.env.PUBLIC_URL + "/assets/gallery/jump.png"}
                   description="But natural selection, as we shall hereafter see, is a power incessantly ready for action, and is immeasurably superior to man's feeble efforts, as the works of Nature are to those of Art."
                 />
               </Slide>

@@ -1,5 +1,6 @@
 .events {
-    background: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3)),  url('/assets/calendar-bg.jpg') no-repeat top center;
+    /* @TODO: Send this image from javascript */
+    background: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3)),  url('/licence/assets/calendar-bg.jpg') no-repeat top center;
     background-size: cover;
     min-height: 750px;
     padding-top: 30px;

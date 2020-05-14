@@ -18,7 +18,7 @@ export default class Prices extends Component {
             </div>
             <div className="plans">
               <PlanBox
-                brandImg={"/assets/zumba-brand.png"}
+                brandImg={process.env.PUBLIC_URL + "/assets/zumba-brand.png"}
                 brandAlt={"zumba brand"}
                 title={"Zumba"}
                 dayPrice={"5"}
@@ -27,7 +27,7 @@ export default class Prices extends Component {
                 quote={"Life is happier when you dance"}
               />
               <PlanBox
-                brandImg={"/assets/jump-brand.png"}
+                brandImg={process.env.PUBLIC_URL + "/assets/jump-brand.png"}
                 brandAlt={"jump brand"}
                 title={"Jump"}
                 dayPrice={"7"}

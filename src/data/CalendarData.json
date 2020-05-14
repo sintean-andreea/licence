@@ -33,7 +33,7 @@
       },
       {
         "name": "Zumba",
-        "hours": "5:39 - 6:21pm"
+        "hours": "5:39pm - 6:21pm"
       }
     ]
   },
@@ -79,24 +79,24 @@
     "day": "Friday",
     "rows": [
       {
-        "name": "xxx",
-        "hours": "Error 404"
+        "name": "No event",
+        "hours": "----"
       },
       {
-        "name": "xxx",
-        "hours": "Error 404"
+        "name": "No event",
+        "hours": "----"
       },
       {
-        "name": "xxx",
-        "hours": "Error 404"
+        "name": "No event",
+        "hours": "----"
       },
       {
-        "name": "xxx",
-        "hours": "Error 404"
+        "name": "No event",
+        "hours": "----"
       },
       {
-        "name": "xxx",
-        "hours": "Error 404"
+        "name": "No event",
+        "hours": "----"
       }
     ]
   }

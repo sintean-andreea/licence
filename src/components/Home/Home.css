@@ -1,5 +1,6 @@
 .home {
-    background: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .3)),  url('/assets/home-bg.jpg') no-repeat center center;
+    /* @TODO: Send this image from javascript */
+    background: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .3)),  url('/licence/assets/home-bg.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 80vh;

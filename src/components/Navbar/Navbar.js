@@ -11,7 +11,7 @@ export default class Navbar extends Component {
         <span className="navbar__item navbar__logo">
           <img
             className="responsive-img"
-            src="/assets/logo.png"
+            src={process.env.PUBLIC_URL + "/assets/logo.png"}
             alt="Claudia Merkt - logo"
           />
         </span>
